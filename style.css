@@ -1,3 +1,8 @@
+:root{
+    --text-color: #667085;
+    --main-color: #8E2424;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -55,8 +60,6 @@ li .logo{
     display: flex;
     justify-content: space-between;
     gap: 8px;   
-    cursor: pointer;
-
 }
 
 #btn1{
@@ -64,6 +67,7 @@ li .logo{
     border-radius: 5px;
     padding: 5px;
     margin: 10px auto;
+    cursor: pointer;
 }
 
 #btn2{
@@ -71,9 +75,39 @@ li .logo{
     border-radius: 5px;
     padding: 5px;
     margin: 10px auto;
+    cursor: pointer;
 }
 
 #btn2:hover{
-    background-color: rgb(180, 180, 235);   
+    background-color: #8E2424;  
 }
 
+.container1{
+    width: 1440px;
+    height: 407px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    gap: 24px;
+}
+
+h1{
+    margin: auto;
+    width: 652px;
+    height: 60px;
+    padding-left: 32px;
+    padding-right: 32px;
+    gap: 12px;
+    text-align: center;
+
+}
+
+p{
+    margin: auto;
+    width: 652px;
+    height: 60px;
+    padding-left: 32px;
+    padding-right: 32px;
+    gap: 12px;
+    text-align: center;
+    color: var(--text-color);
+}
